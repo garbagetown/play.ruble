@@ -1,0 +1,6 @@
+*~
+*.swp
+.classpath
+.project
+.DS_Store
+cache.yml
