@@ -32,7 +32,7 @@ Clone this ruble to your bundle directory. If you are using Mac OS X, the bundle
 
 When the ruble installed correctly, the "Play framework" menu should be shown in "Commands" list.
 
-http://github.com/garbagetown/repository/raw/master/screenshot.png 
+https://github.com/garbagetown/play.ruble/raw/master/screenshot.png
 
 ## Bugs/Requests
 
