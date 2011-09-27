@@ -4,7 +4,7 @@ bundle do |bundle|
   bundle.display_name = 'playframework'
   bundle.author = 'garbagetown'
   bundle.copyright = <<END
-(c) Copyright 2011 garbagetown.org. Distributed under MIT license.
+(c) Copyright 2011 garbagetown.org. Distributed under Apache License, Version 2.0.
 END
 
   bundle.description = <<END
@@ -12,11 +12,8 @@ Bundle for development with <a href="http://playframework.org/">playframework</a
 END
 
   bundle.repository = "git@github.com:garbagetown/play.rubble.git"
-  # bundle.repository = 'git@github.com:username/repo-name.git'
 
-  # Use Commands > Bundle Development > Insert Bundle Section > Menu
-  # to easily add new sections
-    bundle.menu "Play framework" do |play_menu|
+  bundle.menu "Play framework" do |play_menu|
     
     play_menu.menu "Logger" do |logger_menu|
       logger_menu.command "logger.debug"
